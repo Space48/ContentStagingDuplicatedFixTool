@@ -1,4 +1,4 @@
-# stagingDuplicatedFix
+# Content Staging Duplicated Fix Tool
 
 ## Problem
 

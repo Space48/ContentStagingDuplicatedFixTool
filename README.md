@@ -14,5 +14,5 @@ Copy the `clear-content-staging.php` script into the root of a Magento 2 install
 
 ## Versions
 
-Currently, this script has been tested on 
+Currently, this script has been tested on:
 - Magento v2.2.6 Enterprise

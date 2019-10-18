@@ -178,14 +178,14 @@ class ClearContentStaging
         $string = 'INSERT INTO ' . $dataTable . ' (';
 
         foreach ($entity as $key => $value) {
-            $string .= '\'$key\', ';
+            $string .= $key . ', ';
         }
         $string = trim($string, ', ');
 
         $string .= ') VALUES (';
 
         foreach ($entity as $key => $value) {
-            $string .= '\'$value\', ';
+            $string .= '\'' . $value . '\', ';
         }
         $string = trim($string, ', ');
         $string .= ');';
